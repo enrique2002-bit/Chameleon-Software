@@ -3,4 +3,7 @@
 
 yarn lint
 yarn format
-yarn tsc --noEmit -p tsconfig.base.json
+
+# TypeScript Checks pro Workspace
+yarn workspace @chameleon/frontend tsc --noEmit
+yarn workspace @chameleon/backend tsc --noEmit
