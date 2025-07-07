@@ -1,7 +1,16 @@
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Layout from './layout/Layout';
+import Chat from './routes/chat';
+import Login from './routes/login';
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-background-dark text-white font-mono flex items-center justify-center">
-      <h1 className="text-3xl">Hello Chameleon GPT</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}> 
+        <Route index element={<Navigate to="/chat" />} />
+        <Route path="chat" element={<Chat />} />
+        <Route path="login" element={<Login />} />
+      </Route>
+    </Routes>
   );
 }

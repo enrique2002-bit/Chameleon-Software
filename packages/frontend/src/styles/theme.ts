@@ -5,7 +5,7 @@ export const defaultTheme = {
     surfaceLight: '#f9fafb',
     surfaceDark: '#1f2937',
     backgroundLight: '#ffffff',
-    backgroundDark: '#111827'
+    backgroundDark: '#111827',
   },
   borderRadius: {
     default: '0.5rem',
@@ -13,5 +13,5 @@ export const defaultTheme = {
   },
   fontFamily: {
     mono: "'Fira Code', ui-monospace, SFMono-Regular",
-  }
+  },
 };
