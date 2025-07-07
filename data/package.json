@@ -1,0 +1,7 @@
+{
+  "name": "chameleon-software",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

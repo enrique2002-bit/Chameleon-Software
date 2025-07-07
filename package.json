@@ -1,0 +1,7 @@
+{
+  "name": "chameleon-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

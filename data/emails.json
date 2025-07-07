@@ -1,0 +1,4 @@
+[
+  { "id": 1, "subject": "Welcome", "to": "alice@corp.com", "projectId": 1 },
+  { "id": 2, "subject": "Kickoff", "to": "bob@llc.com", "projectId": 2 }
+]
